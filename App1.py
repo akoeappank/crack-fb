@@ -147,7 +147,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : Appank01 {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -203,8 +203,8 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'github.com/Al-Vino'
-	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
+	gh = 'github.com/Akoeappank'
+	cetak(nel('\tSelamat Datang [yellow]%s[white] Cakep'%(my_name)))
 	print(f'>> Your Idz : '+str(my_id))
 	print(f'>> Your Ip  : {ip}')
 	print(f'>> Github   : {gh}')
@@ -215,24 +215,24 @@ def menu(my_name,my_id):
 	print('>> 4. Crack File	')
 	print('>> 5. Hasil Crack  ')
 	print('>> 0. Keluar       ')
-	_____alvino__adijaya_____ = input('\n>> Pilih : ')
-	if _____alvino__adijaya_____ in ['1']:
+	_____appank__koesoet_____ = input('\n>> Pilih : ')
+	if _____appank__koesoet_____ in ['1']:
 		dump_massal()
-	elif _____alvino__adijaya_____ in ['2']:
+	elif _____appank__koesoet_____ in ['2']:
 		dump_follower()
-	elif _____alvino__adijaya_____ in ['3']:
+	elif _____appank__koesoet_____ in ['3']:
 		grup()
-	elif _____alvino__adijaya_____ in ['4']:
+	elif _____appank__koesoet_____ in ['4']:
 		crack_file()
-	elif _____alvino__adijaya_____ in ['5']:
+	elif _____appank__koesoet_____ in ['5']:
 		result()
-	elif _____alvino__adijaya_____ in ['0']:
+	elif _____appank__koesoet_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print('>> Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('>> Pilih Yang Bener Asu ')
+		print('>> Pilih Yang Bener ces ')
 		back()
 def error():
 	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
