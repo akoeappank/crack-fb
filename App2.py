@@ -228,7 +228,7 @@ def menu(my_name,my_id):
 		print('➤ Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('➤ Pilih Yang Bener Asu ')
+		print('➤ Pilih Yang Bener ces ')
 		back()
 def error():
 	jalan(f'{k}➤ Anda Akan di arahkan ke Facebook')
@@ -342,7 +342,7 @@ def dump_massal():
 	try:
 		jum = int(input('➤ Mau Berapa Target ? : '))
 	except ValueError:
-		print('➤ Masukkan Angka Anjing, Malah Huruff ')
+		print('➤ Masukkan Angka Bosku, Malah Huruff ')
 		exit()
 	if jum<1 or jum>100:
 		print('➤ Gagal Dump Idz ')
@@ -365,7 +365,7 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			print('➤ Sinyal Loh Kek Kontoll ')
+			print('➤ Sinyal Loh Kek Nenek2 ')
 			exit()
 	try:
 		print('')
@@ -373,7 +373,7 @@ def dump_massal():
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
-		print('➤ Sinyal Lo kek Kontol ')
+		print('➤ Sinyal Lo kek Kakek2 ')
 		back()
 	except (KeyError,IOError):
 		print(f'➤{k} Pertemanan Tidak Public {x}')
@@ -518,7 +518,7 @@ def setting():
 #			xx = random.randint(0,len(id2))
 #			id2.insert(xx,bacot)
 	else:
-		print('➤ Pilih Yang Bener Kontooll ')
+		print('➤ Pilih Yang Bener Setan ')
 		exit()
 	print('➤ 1. Mobile ')
 	print('')
@@ -526,11 +526,11 @@ def setting():
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
-		print('➤ Pilih Yang Bener Kontol ')
+		print('➤ Pilih Yang Bener Setab ')
 	print('')
 	_jembot_ = input('➤ Tambahkan Aplikasi ( Y/t ) ')
 	if _jembot_ in ['']:
-		print('➤ Pilih Yang Bener Kontol ')
+		print('➤ Pilih Yang Bener Setan ')
 		back()
 	elif _jembot_ in ['y','Y']:
 		taplikasi.append('ya')
@@ -539,7 +539,7 @@ def setting():
 	pwplus=input('➤ Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
-		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,sayangku,adik[white] '))
 		pwku=input('➤ Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
