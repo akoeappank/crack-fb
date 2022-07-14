@@ -133,21 +133,28 @@ thn = datetime.datetime.now().year
 okc = 'OK-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 #------------------[ MACHINE-SUPPORT ]---------------#
+### BUAT ANIMASI JALAN
+def jalan(z):
+	for e in z + "\n":
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.03)
+
 def alvino_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
 def clear():
 	os.system('clear')
 def back():
 	login()
-#------------------[ LOGO-LAKNAT ]-----------------#
+#------------------[ LOGO ]-----------------#
 def banner():
-	print(f'''\t _______{BigBos} ______                                              
-\t|_   _ \                                             
-\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
-\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
-\t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
-\t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-Author : AkoeAppank
+ print(f'''\t{asu}                                          
+   ┌─────────────────────────────────────────────────────────────┐
+   │  
+   │          AkoeAppank Battu Ri Mangkasara Anak kamase-mase
+   │   
+   │  
+   └─────────────────────────────────────────────────────────────┘''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
