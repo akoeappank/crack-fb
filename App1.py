@@ -147,7 +147,7 @@ def banner():
 \t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
 \t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
 \t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
-			{m}•{k}•{h}•{sir} Author : Alvino_Adijaya {x}{m}•{k}•{h}•{x}''')
+			{m}•{k}•{h}•{sir} Author : AkoeAppank {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
@@ -184,7 +184,7 @@ def login_lagi334():
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")
-		print(f'  %s[%sx%s]%s LOGIN GAGAL.....CEK TUMBAL LUU NGAB !!%s'%(x,k,x,m,x))
+		print(f'  %s[%sx%s]%s LOGIN GAGAL.....CEK TUMBA JANGAN AKUN ASLI !!%s'%(x,k,x,m,x))
 		exit()
 def bot():
 	try:
@@ -520,14 +520,14 @@ def grup1(urls):
 			lah()
 #-------------[ CRACK-FROM-FILE ]------------------#
 def crack_file():
-	try:vin = os.listdir('/sdcard/ALVINO-DUMP')
+	try:vin = os.listdir('/sdcard/APPANK-DUMP')
 	except FileNotFoundError:
 		print('>> File Tidak Ditemukan ')
 		time.sleep(2)
 		back()
 	if len(vin)==0:
 		print('')
-		cetak(nel('[white][[cyan]•[white]] Jika Ingin Menggunakan Fitur Ini Ikuti Syaratnya Dibawah Ini\n[[green]1[white]] Buatlah File Dump Id Terlebih dahulu\n[[green]2[white]] Setelah Jadi Masukkan Filenya Kedalam Folder[yellow] ALVINO-DUMP[white] di Penyimpanan Internal Kalian\n[[green]3[white]] Lalu Jalankan Ulang Scriptnya! Baru Pilih Fitur Nomor[yellow] 4 [white]ini '))
+		cetak(nel('[white][[cyan]•[white]] Jika Ingin Menggunakan Fitur Ini Ikuti Syaratnya Dibawah Ini\n[[green]1[white]] Buatlah File Dump Id Terlebih dahulu\n[[green]2[white]] Setelah Jadi Masukkan Filenya Kedalam Folder[yellow] APPANK-DUMP[white] di Penyimpanan Internal Kalian\n[[green]3[white]] Lalu Jalankan Ulang Scriptnya! Baru Pilih Fitur Nomor[yellow] 4 [white]ini '))
 		kontol = input('\n>> Apakah Anda Faham ( Y/t ) ')
 		if kontol in ['']:
 			print('>> Pilih Yang Bener Asuhh ')
@@ -536,7 +536,7 @@ def crack_file():
 			time.sleep(3)
 			back()
 		elif kontol in ['t','T']:
-			print(f'\n[{k}x{x}] Anda Sungguh Tolol ')
+			print(f'\n[{k}x{x}] Anda Sungguh Bodoh ')
 			time.sleep(3)
 			exit()
 		print('>> Anda Tidak Memiliki File Dump ')
@@ -546,7 +546,7 @@ def crack_file():
 		cih = 0
 		lol = {}
 		for isi in vin:
-			try:hem = open('/sdcard/ALVINO-DUMP/'+isi,'r').readlines()
+			try:hem = open('/sdcard/APPANK-DUMP/'+isi,'r').readlines()
 			except:continue
 			cih+=1
 			if cih<100:
@@ -561,10 +561,10 @@ def crack_file():
 		geeh = input('\n>> Pilih : ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f'{k}>> Pilih Yang Bener Kontol {x}')
+			print(f'{k}>> Pilih Yang BenerTOLOL {x}')
 			time.sleep(3)
 			back()
-		try:lin = open('/sdcard/ALVINO-DUMP/'+geh,'r').read().splitlines()
+		try:lin = open('/sdcard/APPANK-DUMP/'+geh,'r').read().splitlines()
 		except:
 			print('>> File Tidak Ditemukan, Coba Lagi Nanti ')
 			time.sleep(2)
@@ -1132,4 +1132,4 @@ if __name__=='__main__':
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#
-#>>>>> Alvino_Adijaya_Xy <<<<<#
+#>>>>> Appank @ mks <<<<<#
